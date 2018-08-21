@@ -1,0 +1,7 @@
+D:\CareerDev\Mosh_CSharpFundamentals\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\CareerDev\Mosh_CSharpFundamentals\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+D:\CareerDev\Mosh_CSharpFundamentals\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\CareerDev\Mosh_CSharpFundamentals\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+D:\CareerDev\Mosh_CSharpFundamentals\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\CareerDev\Mosh_CSharpFundamentals\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+D:\CareerDev\Mosh_CSharpFundamentals\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
