@@ -22,14 +22,31 @@ namespace Exercise_1
 
         public static int Add()
         {
-            string input;
+            
+            var run = true;
+            int sum = 0;
             do
             {
-                input = Convert.ToString(Console.ReadLine());
-                Console.WriteLine("Continue");
-            } while (input != "ok");
+                Console.WriteLine("Input: ");
+                string input = Convert.ToString(Console.ReadLine());
+                
+                
+                if (input == "ok")
+                {
+                    run = false;
+                }
+                else
+                {
+                    int newNum = Convert.ToInt32(input);
+                    if (newNum > 10 || newNum < 1)
+                    {
+                        Console.WriteLine("Input needs to be between 1 and 10");
+                    }
+                    sum += Convert.ToInt32(input);
+                }
+            } while (run);
 
-            return 10;
+            return sum;
         }
 
     }
