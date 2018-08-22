@@ -1,0 +1,7 @@
+D:\CareerDev\Mosh_CSharpFundamentals\055Exercise\055Exercise\bin\Debug\055Exercise.exe.config
+D:\CareerDev\Mosh_CSharpFundamentals\055Exercise\055Exercise\bin\Debug\055Exercise.exe
+D:\CareerDev\Mosh_CSharpFundamentals\055Exercise\055Exercise\bin\Debug\055Exercise.pdb
+D:\CareerDev\Mosh_CSharpFundamentals\055Exercise\055Exercise\obj\Debug\055Exercise.csprojAssemblyReference.cache
+D:\CareerDev\Mosh_CSharpFundamentals\055Exercise\055Exercise\obj\Debug\055Exercise.csproj.CoreCompileInputs.cache
+D:\CareerDev\Mosh_CSharpFundamentals\055Exercise\055Exercise\obj\Debug\055Exercise.exe
+D:\CareerDev\Mosh_CSharpFundamentals\055Exercise\055Exercise\obj\Debug\055Exercise.pdb
