@@ -49,5 +49,17 @@ namespace Exercise_1
             return sum;
         }
 
+        public static int Factorial(int num)
+        {
+            if (num == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return num*Count.Factorial(num - 1);
+            }
+        }
+
     }
 }
