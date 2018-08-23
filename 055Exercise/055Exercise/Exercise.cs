@@ -125,10 +125,7 @@ namespace _055Exercise
                         {
                             unique = false;
                         }
-
-
                     }
-
                     if (unique)
                         list.Add(newNum);
                 }
