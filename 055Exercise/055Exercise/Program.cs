@@ -14,7 +14,11 @@ namespace _055Exercise
 
             //Exercise.Exercise2();
 
-            Exercise.Exercise3();
+            //Exercise.Exercise3();
+
+            //Exercise.Exercise4();
+
+            Exercise.Exercise5();
         }
     }
 }

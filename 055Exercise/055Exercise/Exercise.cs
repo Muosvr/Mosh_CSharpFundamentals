@@ -99,5 +99,71 @@ namespace _055Exercise
             Console.WriteLine("The sorted array is: ");
             Console.WriteLine(string.Join(",",array));
         }
+
+        public static void Exercise4()
+        {
+            var list = new List<int>();
+
+            while (true)
+            {
+                Console.WriteLine("Please enter a number: ");
+                var input = Console.ReadLine();
+                var unique = true;
+
+
+                if(input == "Quit")
+                {
+                    break;
+                }
+                else
+                {
+                    var newNum = Convert.ToInt32(input);
+
+                    foreach (var num in list)
+                    {
+                        if (num == newNum)
+                        {
+                            unique = false;
+                        }
+
+
+                    }
+
+                    if (unique)
+                        list.Add(newNum);
+                }
+            }
+
+            Console.WriteLine("Unique numbers are: " + string.Join(",", list));
+        }
+
+        public static void Exercise5()
+        {
+            while(true)
+            {
+                Console.WriteLine("Please enter five numbers separated by comma:");
+                var input = Console.ReadLine().Split(',');
+                var result = new int[3];
+                if (input.Length < 5)
+                {
+                    Console.WriteLine("Invalid list");
+                }
+                else
+                {
+                    var array = new int[input.Length];
+                    var index = 0;
+                    foreach(var str in input)
+                    {
+                        array[index++] = Convert.ToInt32(str);
+                    }
+                    Array.Sort(array);
+                    Array.Copy(array, result, 3);
+
+                    Console.WriteLine("The smallest three numbers are: " + string.Join(",", result));
+                    break;
+                }
+            }
+            
+        }
     }
 }
