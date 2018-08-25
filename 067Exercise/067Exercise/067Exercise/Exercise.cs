@@ -106,5 +106,30 @@ namespace _067Exercise
             Console.WriteLine(stringBuilder);
 
         }
+
+        public static void Exercise5()
+        {
+            Console.WriteLine("Please enter an English word");
+            var input = Console.ReadLine();
+
+            Console.WriteLine("There are {0} vowels in this word", CountVowels(input));
+        }
+
+        public static int CountVowels(string word)
+        {
+            
+            var array = new char[5] { 'a', 'e', 'o', 'u', 'i' };
+            var count = 0;
+
+            foreach (char c in word.ToLower())
+            {
+                if (array.Contains(c))
+                {
+                    count++;
+                }
+            }
+
+            return count;
+        }
     }
 }

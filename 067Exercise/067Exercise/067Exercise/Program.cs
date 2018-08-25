@@ -13,7 +13,8 @@ namespace _067Exercise
             //Exercise.Exercise1();
             //Exercise.Exercise2();
             //Exercise.Exercise3();
-            Exercise.Exercise4();
+            //Exercise.Exercise4();
+            Exercise.Exercise5();
         }
     }
 }
